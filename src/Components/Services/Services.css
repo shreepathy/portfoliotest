@@ -1,0 +1,37 @@
+.services{
+    display: flex;
+    height: 90vh;
+    margin-top: 3rem;
+}
+.awesome{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.awesome >:nth-child(1){
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--black);
+}
+.awesome >:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.awesome >:nth-child(3){
+    color: var(--gray);
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+} 
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
