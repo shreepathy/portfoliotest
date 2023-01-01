@@ -11,7 +11,6 @@ import thumbup from '../../img/thumbup.png';
 import Boy from '../../img/boy.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import { motion } from 'framer-motion';
-import { type } from '@testing-library/user-event/dist/type';
 
 const Intro = () => {
     const transition = {duration : 2, type : 'spring'};
